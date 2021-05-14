@@ -1,4 +1,4 @@
-const { textToSpeech } = require('./rest-api');
+const textToSpeech = require('./rest-api').textToSpeech;
 
 class GoogleSpeechSynthesis {
   constructor(apiKey) {

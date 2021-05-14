@@ -1,4 +1,4 @@
-const { speechToText } = require('./rest-api');
+const speechToText = require('./rest-api').speechToText;
 
 const BUFFER_SIZE = 4096;
 
